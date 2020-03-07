@@ -1,3 +1,5 @@
+%ewanzel
+
 -module(addr).
 -export([type/1]).
 
@@ -6,3 +8,4 @@
 type(Addr) ->
     {ok, HostEnt} = inet:gethostbyaddr(Addr),
     HostEnt#hostent.h_addrtype.
+
