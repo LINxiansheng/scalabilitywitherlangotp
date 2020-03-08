@@ -1,3 +1,5 @@
+%ewanzel
+
 -module(ex3).
 -export([filter/2, is_even/1]).
 
